@@ -1,0 +1,14 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom fonts - assuming fonts are loaded via @import in index.html or via CSS */
+@layer base {
+  body {
+    @apply font-body bg-bg text-ink;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
